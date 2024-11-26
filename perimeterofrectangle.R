@@ -1,0 +1,6 @@
+print("Enter L")
+l=as.numeric(readLines(n=1))
+print("Enter W")
+w=as.numeric(readLines(n=1))
+p <- 2*(l+w)
+cat("The result is:",p)
